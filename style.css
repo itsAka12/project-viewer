@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(./images/luke-richardson-dI7vfR1Bqcg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the left and right */
+    padding: 10px;
+    /* Add some padding for better spacing */
+}
+
+.logo {
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+    color: white;
+    /* Set the text color to white */
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    margin: 20px;
+}
+
+.col1 {
+    text-align: center;
+    color: white;
+    /* Set the text color to white */
+}
+
+.col2 {
+    list-style: none;
+    display: flex;
+}
+
+.col2 li {
+    margin: 0 10px;
+}
+
+.col2 img {
+    max-width: 100px;
+    /* Set a maximum width for the images */
+    max-height: 100px;
+    /* Set a maximum height for the images */
+}
